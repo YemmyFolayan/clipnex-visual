@@ -38,7 +38,7 @@ const Image = ({url}) => {
 //       url: 'https://storage.googleapis.com/lumen5-site-images/carousel-siemens-bg.png',
 //       caption: 'Slide 1',
 //       icon: 'https://storage.googleapis.com/lumen5-site-images/carousel-siemens.png',
-//       description: "“Thanks to Lumen5, we have been able to cut down on the time and costs related to video making.”",
+//       description: "“Thanks to Clipnex Visuals, we have been able to cut down on the time and costs related to video making.”",
 //       name: "Adrian Ngo",
 //       title: "Global Advertising and Sponsorships"
 //     },
@@ -46,7 +46,7 @@ const Image = ({url}) => {
 //       url: 'https://storage.googleapis.com/lumen5-site-images/carousel-dnv-bg.png',
 //       caption: 'Slide 2',
 //       icon: 'https://storage.googleapis.com/lumen5-site-images/carousel-dnv.png',
-//       description: "“Lumen5 is especially helpful for business people who don't have the technical experience to make their own videos.”",
+//       description: "“Clipnex Visuals is especially helpful for business people who don't have the technical experience to make their own videos.”",
 //       name: "Peter Lovegrove",
 //       title: "Media Relations and Content Manager"
 //     },
@@ -54,7 +54,7 @@ const Image = ({url}) => {
 //       url: 'https://storage.googleapis.com/lumen5-site-images/carousel-mhi-bg.png',
 //       caption: 'Slide 3',
 //       icon: 'https://storage.googleapis.com/lumen5-site-images/carousel-mitsubishi.png',
-//       description: "“Thanks to Lumen5, we have been able to cut down on the time and costs related to video making.”",
+//       description: "“Thanks to Clipnex Visuals, we have been able to cut down on the time and costs related to video making.”",
 //       name: "Adrian Ngo",
 //       title: "Global Advertising and Sponsorships"
 //     },
@@ -62,7 +62,7 @@ const Image = ({url}) => {
 //     url: 'https://storage.googleapis.com/lumen5-site-images/carousel-ncstate-bg.png',
 //     caption: 'Slide 4',
 //     icon: 'https://storage.googleapis.com/lumen5-site-images/carousel-ncstate.png',
-//       description: "“We knew Lumen5 was the right tool, so there was no point in looking any further.”",
+//       description: "“We knew Clipnex Visuals was the right tool, so there was no point in looking any further.”",
 //       name: "Drew Sykes",
 //       title: "Social Media Director"
 //     },
@@ -70,7 +70,7 @@ const Image = ({url}) => {
 //     url: 'https://storage.googleapis.com/lumen5-site-images/carousel-cms-bg.png',
 //     caption: 'Slide 5',
 //     icon: 'https://storage.googleapis.com/lumen5-site-images/carousel-cms.png',
-//     description: "“Lumen5 is especially helpful for business people who don't have the technical experience to make their own videos.”",
+//     description: "“Clipnex Visuals is especially helpful for business people who don't have the technical experience to make their own videos.”",
 //     name: "Amsal Alihodzic",
 //     title: "Senior Online Marketing Manager"
 //     },
@@ -78,7 +78,7 @@ const Image = ({url}) => {
 //     url: 'https://storage.googleapis.com/lumen5-site-images/carousel-mondadori-bg.png',
 //     caption: 'Slide 6',
 //     icon: 'https://storage.googleapis.com/lumen5-site-images/carousel-mondadori.png',
-//       description: "“Lumen5 helps us with what we want to achieve on social: engagement and reach.”",
+//       description: "“Clipnex Visuals helps us with what we want to achieve on social: engagement and reach.”",
 //       name: "Alfonso Biondi",
 //       title: "Social Video Specialist"
 //     },
@@ -86,7 +86,7 @@ const Image = ({url}) => {
 //     url: 'https://storage.googleapis.com/lumen5-site-images/carousel-berkshire-bg.png',
 //     caption: 'Slide 7',
 //     icon: 'https://storage.googleapis.com/lumen5-site-images/carousel-berkshire.png',
-//       description: "“We were very attracted to Lumen5 due to the fact it was very turnkey and very simple. We could train a team of people to assist in the production of video.”",
+//       description: "“We were very attracted to Clipnex Visuals due to the fact it was very turnkey and very simple. We could train a team of people to assist in the production of video.”",
 //       name: "Glen Wellbrock",
 //       title: "Senior Director of Marketing"
 //     },
@@ -164,9 +164,10 @@ const [vidchange, setVidChabge] = useState(contentmarketvideos)
 
             <section className="section1">
                 <div className="sec1div1">
-                    <p className="sec1-p1">Video maker built to <br/>supercharge your <br/>current strategy</p>
-                    <p className="sec1-p2">Easily make videos for <br/><b>content marketing,<br/>thought leadership,</b>  and <br/><b>brand awareness</b> in a snap.</p>
-                    <button className="signupbtn"><Link to="/signup">Sign up free</Link></button>
+                      <p className="sec1-p1">A service-based <br/>Video  Agency </p>
+                        <p className="sec1-p2"> We specialize in <br/> <b style={{ color: '#000080', fontWeight: 'bold' }}>high quality</b> visually captivating  <br/><b style={{ color: '#000080', fontWeight: 'bold' }}>video production,</b> enhancing   <br/> <b style={{ color: '#000080', fontWeight: 'bold' }}> marketing efforts </b> for brands.</p>
+                    <p className="sec1-p2">Easily make videos for <br/><b style={{ color: '#000080', fontWeight: 'bold' }}>content marketing,<br/>thought leadership,</b>  and <br/><b style={{ color: '#000080', fontWeight: 'bold' }}>brand awareness</b> in a snap.</p>
+                    <button className="signupbtn"><a href='https://wa.me/+2348080452514' target="_blank">Book us </a></button>
                 </div>
                 <div className="sec1-2">
                     <img className="section1img1" src="https://storage.googleapis.com/lumen5-site-images/website-assets/image-hero.png" alt="section1-i"/>
@@ -205,9 +206,9 @@ const [vidchange, setVidChabge] = useState(contentmarketvideos)
                 <div className="sec4-2">
                     {/* <div className="file-i"><i class="fa-solid fa-file-lines file-icon"></i></div> */}
                     <div className="sec4-2-2">Transform blog posts into videos with A.I.</div>
-                    <div className="sec4-2-3">Starting from a blank page is hard — and with Lumen5, you don’t have to. Our AI-powered technology helps you storyboard your ideas, fit your content to a layout, and find music and visuals that enhance your message.</div>
+                    <div className="sec4-2-3">Starting from a blank page is hard — and with Clipnex Visuals, you don’t have to. Our AI-powered technology helps you storyboard your ideas, fit your content to a layout, and find music and visuals that enhance your message.</div>
                     <div className="sec4-2-4"> <Link to="/signup" className='nav-links'>Get started for free <ArrowForwardIcon style={{height:"12px"}}/></Link></div>
-                    <div className="sec4-2-5">“Lumen5 has enabled us to create more videos and drive more traffic, while having more time to <br/>invest in other projects.”</div>
+                    <div className="sec4-2-5">“Clipnex Visuals has enabled us to create more videos and drive more traffic, while having more time to <br/>invest in other projects.”</div>
                     <div className="d-flex">
                         <div className="s4-rh-ld  ">
                             <img className="sec4-img1" src="https://storage.googleapis.com/lumen5-site-images/website-assets/image-drew-s.jpg" alt="s4-img"/>
@@ -225,9 +226,9 @@ const [vidchange, setVidChabge] = useState(contentmarketvideos)
                 <div className="sec5-1">
                     {/* <div className="file-i" ><i className="fa-solid fa-image file-icon"></i></div> */}
                     <div className="sec4-2-2">Content library with <br /> millions of stock photos & videos</div>
-                    <div className="sec5-1-3">The Lumen5 media library gives you <br/>easy access to millions of photos,<br/>video clips, and audio files, so you <br/>always have the elements you need<br/>to create the perfect video.</div>
+                    <div className="sec5-1-3">The Clipnex Visuals media library gives you <br/>easy access to millions of photos,<br/>video clips, and audio files, so you <br/>always have the elements you need<br/>to create the perfect video.</div>
                     <div className="sec5-1-4"><Link to="/signup" className='nav-links'>View plans <ArrowForwardIcon style={{height:"12px"}}/></Link></div>
-                    <div className="sec5-1-5">“We promoted our downloadable study <br/>on top PPC skills for 2019 on social media <br/>using a short video created in Lumen5 in<br/>just 30 minutes, and decreased cost per<br/>download by 5x!”</div>
+                    <div className="sec5-1-5">“We promoted our downloadable study <br/>on top PPC skills for 2019 on social media <br/>using a short video created in Clipnex Visuals in<br/>just 30 minutes, and decreased cost per<br/>download by 5x!”</div>
                     <div className="d-flex">
                         <div className="s4-rh-ld">
                             <img  className="sec4-img1" src="https://storage.googleapis.com/lumen5-site-images/website-assets/image-julia-o.jpg" alt="s4-img"/>
@@ -251,9 +252,9 @@ const [vidchange, setVidChabge] = useState(contentmarketvideos)
                 <div className="sec4-2">
                     {/* <div  className="file-i"><i className="fa-solid fa-palette file-icon"></i></div> */}
                     <div className="sec4-2-2">Making it easy to <br/>stay on brand</div>
-                    <div className="sec6-2-3">It has never been easier to stay on brand.<br/>With Lumen5 templates, you can customize<br/>each video with your unique logo, <br/>watermark, fonts, colors, and more.</div>
+                    <div className="sec6-2-3">It has never been easier to stay on brand.<br/>With Clipnex Visuals templates, you can customize<br/>each video with your unique logo, <br/>watermark, fonts, colors, and more.</div>
                     <div className="sec4-2-4"><Link to="/signup" className='nav-links'>Get started free <ArrowForwardIcon style={{height:"12px"}}/> </Link></div>
-                    <div className="sec4-2-5">“Whenever I got in touch with Lumen5 I felt like my <br/>suggestions mattered and I was being listened to. <br/>It’s like I’m co-creating in a tiny way. It’s a great<br/>feeling.”</div>
+                    <div className="sec4-2-5">“Whenever I got in touch with Clipnex Visuals I felt like my <br/>suggestions mattered and I was being listened to. <br/>It’s like I’m co-creating in a tiny way. It’s a great<br/>feeling.”</div>
                     <div className="width d-flex">
                         <div className="s4-rh-ld">
                             <img className="width sec4-img1" src="https://storage.googleapis.com/lumen5-site-images/website-assets/image-promod-s.jpg" alt="s4-img"/>
@@ -267,7 +268,7 @@ const [vidchange, setVidChabge] = useState(contentmarketvideos)
             </section>
 
             <section className="section7">
-                <h1 className="sec7-1">Explore videos make with Lumen5</h1>
+                <h1 className="sec7-1">Explore videos make with Clipnex Visuals</h1>
                 <div className="sec8-btns">
                     <button id="contentmarket" value="contentmarketing" onClick={() => {setVidChabge(contentmarketvideos)}}>ContentMarketing</button>
                     <button id="communicate" value="communication" onClick={() => {setVidChabge(communicationsvideos)}}>Communications</button>
@@ -286,7 +287,7 @@ const [vidchange, setVidChabge] = useState(contentmarketvideos)
 
             <section className="section8 ">
                     <h1 className="sec8-1">Customer sucess stories</h1>
-                    <div className="sec8-2">Discover how leading brands are getting results with Lumen5.</div>
+                    <div className="sec8-2">Discover how leading brands are getting results with Clipnex Visuals.</div>
                     <div className="slide-container">
                     <Slide className="slide-comp">
                         {slideImages.map((slideImage, index)=> (
@@ -355,12 +356,15 @@ const [vidchange, setVidChabge] = useState(contentmarketvideos)
                 <div >
                     <div className="sec10-0"></div>
                     <div className="sec10-1">
-                    Join 800,000+ companies that are <br/>using Lumen5 to tell their stories.
+                    Join 800,000+ companies that are <br/>using Clipnex Visuals to tell their stories.
                     </div>
                     <div className="sec10-2">
-                    Lumen5 is a video creation software that helps marketers, <br/>publishers, and brands create video content in a breeze, <br/>without any technical expertise.
+                    Clipnex Visuals is a video creation software that helps marketers, <br/>publishers, and brands create video content in a breeze, <br/>without any technical expertise.
                     </div>
-                    <div><button className="lastbtn"><Link className="signupbtnlast nav-links" to="/signup">Sign up free</Link></button></div>
+                    <div><button className="lastbtn"><a href='https://wa.me/+2348080452514' target="_blank">Book us </a></button>
+                    
+                     
+                     </div>
                 </div>
             </section>
 

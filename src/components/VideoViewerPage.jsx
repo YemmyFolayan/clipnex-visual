@@ -48,7 +48,7 @@ const VideoViewerPage = () => {
         {/* top section */}
         <div className={style.viewer_top}>
           <div className={style.viewer_title}>
-            <span>Upgrade</span> to remove Lumen5 credit scene{" "}
+            <span>Upgrade</span> to remove Clipnex Visuals credit scene{" "}
           </div>
           <div className={style.viewer_btn}>
             <button>Upgrade</button>
@@ -121,7 +121,7 @@ const VideoViewerPage = () => {
                   <ModalBody padding={"0px 20px 20px 20px"}>
                     8 Signs You <br />
                     Might Need a <br />
-                    Digital Detox Presented by Lumen5
+                    Digital Detox Presented by Clipnex Visuals
                   </ModalBody>
                 </ModalContent>
               </Modal>

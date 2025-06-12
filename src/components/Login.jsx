@@ -58,7 +58,7 @@ const Login = () => {
           Supercharge your content strategy
         </Text>
         <Text className={style.secondTextInSideBar}>
-          Join 800,000+ brands creating videos with Lumen5
+          Join 800,000+ brands creating videos with Clipnex Visuals
         </Text>
         <div className={style.companyLogo}>
           <img
@@ -142,7 +142,7 @@ const Login = () => {
               marginBottom: "30px",
             }}
           >
-            Need a Lumen5 account?
+            Need a Clipnex Visuals account?
             <Link to={`/signup`}>
               <span style={{ color: "#5846f6", textDecoration: "underline" }}>
                 Create an account

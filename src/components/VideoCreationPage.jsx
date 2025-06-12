@@ -103,7 +103,7 @@ const VideoCreationPage = () => {
             <textarea
               cols="30"
               rows="10"
-              placeholder="👋 Welcome to Lumen5!
+              placeholder="👋 Welcome to Clipnex Visuals!
               
               📝 PREPARE YOUR SCRIPT
 Paste the URL from your article or blog in the field above or copy/paste text directly in this text box.

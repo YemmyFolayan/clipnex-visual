@@ -1,12 +1,12 @@
 
-# Lumen5 Clone Project
+# Clipnex Visuals Clone Project
 
-Hello Everyone !🌏 We are Masaiians and we are presenting our project- clone of Lumen5, built during construct week.
+Hello Everyone !🌏 We are Masaiians and we are presenting our project- clone of Clipnex Visuals, built during construct week.
 
 
 ## Details : 🔭
 
-Lumen5 combines powerful A.I. with a simple drag-and-drop interface to help you create professional video content in minutes.
+Clipnex Visuals combines powerful A.I. with a simple drag-and-drop interface to help you create professional video content in minutes.
 
 ### original website link : https://lumen5.com/
 

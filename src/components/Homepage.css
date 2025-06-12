@@ -18,7 +18,7 @@
 }
 
 .signupbtn {
-    background-color: rgb(87, 87, 192);
+    background-color: #000080;
     color: white;
     border: 0;
     font-size: 17px;
@@ -182,7 +182,7 @@ video:hover {
 
 .nav-links {
     text-decoration: none;
-    color: blue;
+    color: #000080;
 }
 
 .sec4-2-5 {
@@ -216,7 +216,7 @@ video:hover {
 }
 
 .border {
-    border: 1px solid black;
+    border: 1px solid #000080;
 }
 
 @media all and (max-width:768px){
@@ -340,15 +340,15 @@ video:hover {
 .sec8-btns > button {
     background-color: white;
     border: 1px;
-    color: blue;
+    color: #000080;
     padding: 10px;
     border-radius: 20px;
-    border: 0.5px solid blue;
+    border: 0.5px solid #000080;
     margin-right: 20px;
 }
 
 .sec8-btns > button:hover {
-    background-color: blue;
+    background-color: #000080;
     color: white;
     padding: 10px;
     border-radius: 20px;
@@ -404,22 +404,22 @@ video:hover {
 .sec8-btns > button {
     background-color: white;
     border: 1px;
-    color: blue;
+    color: #000080;
     padding: 10px;
     border-radius: 20px;
-    border: 0.5px solid blue;
+    border: 0.5px solid #000080;
     margin-right: 20px;
 }
 
 .sec8-btns > button:hover {
-    background-color: blue;
+    background-color: #000080;
     color: white;
     padding: 10px;
     border-radius: 20px;
 }
 
 .slide-container {
-    /* border: 1px solid black; */
+    /* border: 1px solid #000080; */
     /* have a look */
     width: 65%; 
     margin: auto;
@@ -455,7 +455,7 @@ video:hover {
 
 .slide-caption {
     background-color: white;
-    color: black;
+    color: #000080;
     align-items: flex-end;
     
 }
@@ -474,7 +474,7 @@ video:hover {
 }
 
 .sec8-2 {
-    /* border: 1px solid black; */
+    /* border: 1px solid #000080; */
     width: 70%;
     margin: auto;
     display: flex;
@@ -505,7 +505,7 @@ video:hover {
 }
 
 .p-2 {
-    color: black;
+    color: #000080;
 }
 
 .p-2, .p-3 {
@@ -577,7 +577,7 @@ video:hover {
 }
 
 .link {
-    color: blue;
+    color: #000080;
 }
 
 .link:hover {
@@ -681,7 +681,7 @@ video:hover {
     width: 80%;
     margin: auto;
     border-radius: 20px;
-    background-color: blue;
+    background-color: #000080;
     color: white;
     text-align: center;
     margin-bottom: 100px;

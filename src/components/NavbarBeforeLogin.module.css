@@ -27,26 +27,26 @@
 
 .loginbtn{
     background-color: white;
-    color: #5846f6;
-    border: 1px solid #5846f6;
+    color: #000080;
+    border: 1px solid #000080;
     padding: 10px 15px;
     border-radius: 25px;
 }
 
 .signupbtn{
-    background-color: #5846f6;
+    background-color: #000080;
     color: white;
     padding: 12px 15px;
     border-radius: 25px;
 }
 
 .loginbtn:hover{
-    background-color: #5846f6;
+    background-color: #000080;
     color: white;
 }
 
 .signupbtn:hover{
-    background-color: #2f239c;
+    background-color: #000080;
 }
 
 .hamburger{
