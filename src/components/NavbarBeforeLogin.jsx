@@ -46,18 +46,14 @@ const NavbarBeforeLogin = () => {
           <Spacer />
           <Box className={style.large_screen_menu}>
             <Link to={`/`} ><Text>Home</Text></Link>
-            <Link to={`#`} ><Text>Pricing</Text></Link>
-            <Link to={`/enterprise`} ><Text>Enterprise</Text></Link>
-            <Link to={`#`} ><Text>Case Studies</Text></Link>
-            <Link to={`#`}>
-            <Text>
-              Learn <i className="fa-solid fa-angle-down"></i>{" "}
-            </Text>
-            </Link>
+            <Link to={`/pricing`} ><Text>Pricing</Text></Link>
+            <Link to={`/service`} ><Text>Service</Text></Link>
+            <Link to={`/products`} ><Text>Products</Text></Link>
+            <Link to={`/about`}> <Text> About </Text> </Link>
             {/* <Link to={`/login`} ><button className={style.loginbtn}>Login</button></Link>
             <Link to={`/signup`} > <button className={style.signupbtn}>Sign up</button></Link> */}
           
-             <button className={style.signupbtn}><a href='https://wa.me/+2348080452514' target="_blank">Contact us </a></button>
+             <button className={style.signupbtn}><a href='https://wa.me/+2348108439416' target="_blank">Contact us </a></button>
           </Box>
 
           <Box className={style.hamburger} onClick={() => handleClick("xs")}>

@@ -165,9 +165,9 @@ const [vidchange, setVidChabge] = useState(contentmarketvideos)
             <section className="section1">
                 <div className="sec1div1">
                       <p className="sec1-p1">A service-based <br/>Video  Agency </p>
-                        <p className="sec1-p2"> We specialize in <br/> <b style={{ color: '#000080', fontWeight: 'bold' }}>high quality</b> visually captivating  <br/><b style={{ color: '#000080', fontWeight: 'bold' }}>video production,</b> enhancing   <br/> <b style={{ color: '#000080', fontWeight: 'bold' }}> marketing efforts </b> for brands.</p>
+                        <p className="sec1-p2"> We specialize in <br/> <b style={{ color: '#000080', fontWeight: 'bold' }}>high quality</b> visually captivating  <br/><b style={{ color: '#000080', fontWeight: 'bold' }}>video production,</b> enhancing   <br/> <b style={{ color: '#000080', fontWeight: 'bold' }}> marketing efforts </b> for brands and events.</p>
                     <p className="sec1-p2">Easily make videos for <br/><b style={{ color: '#000080', fontWeight: 'bold' }}>content marketing,<br/>thought leadership,</b>  and <br/><b style={{ color: '#000080', fontWeight: 'bold' }}>brand awareness</b> in a snap.</p>
-                    <button className="signupbtn"><a href='https://wa.me/+2348080452514' target="_blank">Book us </a></button>
+                    <button className="signupbtn"><a href='https://wa.me/+2348108439416' target="_blank">Book us </a></button>
                 </div>
                 <div className="sec1-2">
                     <img className="section1img1" src="https://storage.googleapis.com/lumen5-site-images/website-assets/image-hero.png" alt="section1-i"/>
@@ -361,7 +361,7 @@ const [vidchange, setVidChabge] = useState(contentmarketvideos)
                     <div className="sec10-2">
                     Clipnex Visuals is a video creation software that helps marketers, <br/>publishers, and brands create video content in a breeze, <br/>without any technical expertise.
                     </div>
-                    <div><button className="lastbtn"><a href='https://wa.me/+2348080452514' target="_blank">Book us </a></button>
+                    <div><button className="lastbtn"><a href='https://wa.me/+2348108439416' target="_blank">Book us </a></button>
                     
                      
                      </div>
