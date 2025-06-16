@@ -10,8 +10,7 @@ import {
   Text,
   Heading,
   Container,
-  Divider,
-  Link
+
 } from "@chakra-ui/react";
 import NavbarBeforeLogin from "./NavbarBeforeLogin";
 import Footer from "./Footer";

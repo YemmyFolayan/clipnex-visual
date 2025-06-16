@@ -8,10 +8,10 @@ import {
   Image,
   Text,
   HStack,
- 
+
   Drawer,
   DrawerBody,
- 
+
   DrawerHeader,
   DrawerOverlay,
   DrawerContent,
@@ -19,7 +19,7 @@ import {
   useDisclosure,
   VStack,
 } from "@chakra-ui/react";
-import { Link } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 import clipnex_logo from "../images/clipnex_logo_blue.png";
 
 const NavbarBeforeLogin = () => {
@@ -39,25 +39,51 @@ const NavbarBeforeLogin = () => {
             <Link to={`/`}>
               <Image
                 className={style.logo}
-                src= {clipnex_logo}
+                src={clipnex_logo}
               />
             </Link>
           </Box>
           <Spacer />
           <Box className={style.large_screen_menu}>
-            <Link to={`/`} ><Text>Home</Text></Link>
-            <Link to={`/pricing`} ><Text>Pricing</Text></Link>
-            <Link to={`/service`} ><Text>Service</Text></Link>
-            <Link to={`/products`} ><Text>Products</Text></Link>
-            <Link to={`/about`}> <Text> About </Text> </Link>
-            {/* <Link to={`/login`} ><button className={style.loginbtn}>Login</button></Link>
-            <Link to={`/signup`} > <button className={style.signupbtn}>Sign up</button></Link> */}
-          
-             <button className={style.signupbtn}><a href='https://wa.me/+2348108439416' target="_blank">Contact us </a></button>
-          </Box>
+            <NavLink
+              to={`/`}
+              style={({ isActive }) => ({ color: isActive ? '#000080' : 'inherit' })}
+            >
+              <Text>Home</Text>
+            </NavLink>
+            <NavLink
+              to={`/pricing`}
+              style={({ isActive }) => ({ color: isActive ? '#000080' : 'inherit' })}
+            >
+              <Text>Pricing</Text>
+            </NavLink>
+            <NavLink
+              to={`/service`}
+              style={({ isActive }) => ({ color: isActive ? '#000080' : 'inherit' })}
+            >
+              <Text>Service</Text>
+            </NavLink>
+            <NavLink
+              to={`/products`}
+              style={({ isActive }) => ({ color: isActive ? '#000080' : 'inherit' })}
+            >
+              <Text>Products</Text>
+            </NavLink>
+            <NavLink
+              to={`/about`}
+              style={({ isActive }) => ({ color: isActive ? '#000080' : 'inherit' })}
+            >
+              <Text>About</Text>
+            </NavLink>
 
+            <button className={style.signupbtn}>
+              <a href='https://wa.me/+2348108439416' target="_blank" rel="noopener noreferrer">
+                Contact us
+              </a>
+            </button>
+          </Box>
           <Box className={style.hamburger} onClick={() => handleClick("xs")}>
-            <i style={{ fontSize: "25px" }} className="fa-solid fa-bars"></i>
+          <i style={{ fontSize: "25px", color: "#000080" }} className="fa-solid fa-bars" />
             <Drawer onClose={onClose} isOpen={isOpen} size={size}>
               <DrawerOverlay />
               <DrawerContent>
@@ -66,7 +92,7 @@ const NavbarBeforeLogin = () => {
                   <Link to={`/`}>
                     {" "}
                     <Image
-                      src="https://storage.googleapis.com/lumen5-site-images/L5-logo/L5-logo-header.png"
+                      src={clipnex_logo}
                       h="70px"
                       w="120px"
                     />
@@ -74,11 +100,44 @@ const NavbarBeforeLogin = () => {
                 </DrawerHeader>
                 <DrawerBody>
                   <VStack>
-                    <Box className={style.mid_sidebar}>Pricing</Box>
-                   <Link className={style.mid_sidebar} to={`/enterprise`}><Box className={style.mid_sidebar}>Enterprise</Box></Link> 
-                    <Box className={style.mid_sidebar}>Case Studies</Box>
-                    <Link to={`/login`} ><button className={style.loginbtn}>Login</button></Link>
-                    <Link to={`/signup`} ><button className={style.signupbtn}>Sign up</button></Link>
+                    <Box >
+                      <NavLink
+                        to={`/`}
+                        style={({ isActive }) => ({ color: isActive ? '#000080' : 'inherit' })}
+                      >
+                        <Text>Home</Text>
+                      </NavLink>
+                      <NavLink
+                        to={`/pricing`}
+                        style={({ isActive }) => ({ color: isActive ? '#000080' : 'inherit' })}
+                      >
+                        <Text>Pricing</Text>
+                      </NavLink>
+                      <NavLink
+                        to={`/service`}
+                        style={({ isActive }) => ({ color: isActive ? '#000080' : 'inherit' })}
+                      >
+                        <Text>Service</Text>
+                      </NavLink>
+                      <NavLink
+                        to={`/products`}
+                        style={({ isActive }) => ({ color: isActive ? '#000080' : 'inherit' })}
+                      >
+                        <Text>Products</Text>
+                      </NavLink>
+                      <NavLink
+                        to={`/about`}
+                        style={({ isActive }) => ({ color: isActive ? '#000080' : 'inherit' })}
+                      >
+                        <Text>About</Text>
+                      </NavLink>
+
+                      <button>
+                        <a href='https://wa.me/+2348108439416' target="_blank" rel="noopener noreferrer">
+                          Contact us
+                        </a>
+                      </button>
+                    </Box>
                   </VStack>
                 </DrawerBody>
               </DrawerContent>
