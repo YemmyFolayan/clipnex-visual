@@ -15,7 +15,7 @@ import {
 import NavbarBeforeLogin from "./NavbarBeforeLogin";
 import Footer from "./Footer";
 
-const AboutPage = () => {
+const About = () => {
   return (
     <>
       <NavbarBeforeLogin />
@@ -255,4 +255,4 @@ const AboutPage = () => {
   );
 };
 
-export default AboutPage;
+export default About;
