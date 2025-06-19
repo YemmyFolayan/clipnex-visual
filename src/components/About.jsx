@@ -14,6 +14,7 @@ import {
 } from "@chakra-ui/react";
 import NavbarBeforeLogin from "./NavbarBeforeLogin";
 import Footer from "./Footer";
+import ceo1 from '../images/ceo1.jpeg'
 
 const About = () => {
   return (
@@ -59,7 +60,7 @@ const About = () => {
           <Flex direction={["column", "column", "row"]} align="center">
             <Box flex={1} pr={[0, 0, 10]} mb={[8, 8, 0]}>
               <Image 
-                src="https://media.licdn.com/dms/image/v2/D4D03AQEXfCQTFQNn9A/profile-displayphoto-shrink_400_400/B4DZRqOEXXHEAg-/0/1736948862709?e=1755129600&v=beta&t=2naEtlJy03Qd8REUIsEIw1poh9pbu0AwXEqoULRMoRk" 
+                src={ceo1} 
                 alt="CEO Profile" 
                 borderRadius="full"
                 boxSize="400px"
@@ -69,7 +70,7 @@ const About = () => {
             </Box>
             <Box flex={2}>
               <Heading as="h2" size="xl" mb={6} color="brand.800">
-                Founder & Strategist
+                Founder & CEO
               </Heading>
              <Heading as="h3" size="md" mb={3} color="brand.700">
                 Folayan Ifeoluwa Omoniyi
