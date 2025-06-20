@@ -175,10 +175,10 @@ const Homepage = () => {
 
             <section className="section1">
                 <div className="sec1div1">
-                    <p className="sec1-p1">A service-based <br />Video  Agency </p>
+                    <p className="sec1-p1"> Welcome to  <br /> Clipnex Visuals </p>
                     <p className="sec1-p2"> We specialize in <br /> <b style={{ color: '#000080', fontWeight: 'bold' }}>high quality</b> visually captivating  <br /><b style={{ color: '#000080', fontWeight: 'bold' }}>video production,</b> enhancing   <br /> <b style={{ color: '#000080', fontWeight: 'bold' }}> marketing efforts </b> for brands and events.</p>
                     <p className="sec1-p2">Easily make videos for <br /><b style={{ color: '#000080', fontWeight: 'bold' }}>content marketing,<br />thought leadership,</b>  and <br /><b style={{ color: '#000080', fontWeight: 'bold' }}>brand awareness</b> in a snap.</p>
-                    <button className="signupbtn"><a href='https://wa.me/+2348108439416' target="_blank" rel="noreferrer">Book us </a></button>
+                    <button className="signupbtn"><a href='https://wa.me/+2348108439416' target="_blank" rel="noreferrer"> Book a Visual Session </a></button>
                 </div>
                 <div className="sec1-2">
                     <img className="section1img1" src="https://storage.googleapis.com/lumen5-site-images/website-assets/image-hero.png" alt="section1-i" />
@@ -186,7 +186,25 @@ const Homepage = () => {
             </section>
 
             <section className="section2">
-                <div className="text-c sec2-1">Over 6 million videos created by thousands of businesses</div>
+
+              <div 
+  className="text-c" 
+  style={{
+    backgroundColor: "#000080", 
+    borderRadius: "20px", 
+    padding: "10px 15px", 
+    display: "inline-block"
+  }}
+>
+  <i style={{
+    color: "white", 
+    fontWeight: "bold", 
+    fontStyle: "normal"
+  }}>
+    📸 Capturing Life, Creating Magic.✨
+  </i>
+</div>
+                
                 <div className="sec2-d2">
                     <img src="https://storage.googleapis.com/lumen5-site-images/website-assets/logo-salesforce-color.png" alt="sec2-img1" />
                     <img src="https://storage.googleapis.com/lumen5-site-images/website-assets/logo-pwc-color.png" alt="sec2-img2" />
@@ -201,7 +219,159 @@ const Homepage = () => {
 
 
 
-       
+<section style={{
+  display: "flex",
+  padding: "40px 20px",
+  gap: "40px",
+  maxWidth: "1200px",
+  margin: "0 auto",
+  flexWrap: "wrap"
+}}>
+  {/* Left Column - Services Title */}
+  <div style={{
+    flex: "1",
+    minWidth: "300px"
+  }}>
+    <h2 style={{
+      fontSize: "32px",
+      fontWeight: "700",
+      marginBottom: "30px",
+      color: "#000080"
+    }}>
+      Services – What We Do Best
+    </h2>
+    
+    <div style={{
+      fontSize: "24px",
+      marginBottom: "20px",
+      display: "flex",
+      alignItems: "center",
+      gap: "10px"
+    }}>
+      <span>📷</span>
+      <span>Visual Solutions for Every Need:</span>
+    </div>
+    
+    <ul style={{
+      listStyleType: "none",
+      padding: "0",
+      margin: "0"
+    }}>
+      <li style={{
+        padding: "8px 0",
+        borderBottom: "1px solid #eee",
+        display: "flex",
+        alignItems: "center",
+        gap: "10px"
+      }}>
+        <span>🎬</span>
+        <span>Social Media Reels & Stories</span>
+      </li>
+      <li style={{
+        padding: "8px 0",
+        borderBottom: "1px solid #eee",
+        display: "flex",
+        alignItems: "center",
+        gap: "10px"
+      }}>
+        <span>🚀</span>
+        <span>Product Launch Videos</span>
+      </li>
+      <li style={{
+        padding: "8px 0",
+        borderBottom: "1px solid #eee",
+        display: "flex",
+        alignItems: "center",
+        gap: "10px"
+      }}>
+        <span>💍</span>
+        <span>Weddings & Special Events</span>
+      </li>
+      <li style={{
+        padding: "8px 0",
+        borderBottom: "1px solid #eee",
+        display: "flex",
+        alignItems: "center",
+        gap: "10px"
+      }}>
+        <span>🎵</span>
+        <span>Music & Lifestyle Content</span>
+      </li>
+      <li style={{
+        padding: "8px 0",
+        display: "flex",
+        alignItems: "center",
+        gap: "10px"
+      }}>
+        <span>💼</span>
+        <span>Business Promos & Interviews</span>
+      </li>
+    </ul>
+  </div>
+
+  {/* Right Column - Service Image/Details */}
+  <div style={{
+    flex: "1",
+    minWidth: "300px",
+    background: "#f8f9fa",
+    borderRadius: "15px",
+    padding: "30px",
+    display: "flex",
+    flexDirection: "column",
+    justifyContent: "center"
+  }}>
+    <div style={{
+      fontSize: "20px",
+      lineHeight: "1.6",
+      marginBottom: "20px"
+    }}>
+      We deliver premium visual content tailored to your brand's unique personality and goals. Each project receives our full creative attention.
+    </div>
+    
+    <div style={{
+      display: "flex",
+      alignItems: "center",
+      gap: "20px",
+      marginTop: "auto"
+    }}>
+      <div style={{
+        width: "80px",
+        height: "80px",
+        borderRadius: "50%",
+        backgroundColor: "#000080",
+        display: "flex",
+        alignItems: "center",
+        justifyContent: "center",
+        color: "white",
+        fontSize: "30px"
+      }}>
+        🎥
+      </div>
+      <div>
+     <Link 
+  to="/service" 
+  style={{
+    fontWeight: "bold",
+    fontSize: "18px",
+    color: "inherit", // Maintains the current text color
+    textDecoration: "none", // Removes underline
+    display: "inline-block" // Ensures proper spacing
+  }}
+>
+ View more services
+</Link>
+        <div style={{
+          color: "#666",
+          fontSize: "14px"
+        }}>
+          Tell us about your project for a personalized quote,  Custom Solutions Available
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
 
             <section className="section4 ">
                 <div className="imgdiv">
@@ -210,10 +380,19 @@ const Homepage = () => {
                 <div className="sec4-2">
                     {/* <div className="file-i"><i class="fa-solid fa-file-lines file-icon"></i></div> */}
                     <div className="sec4-2-1"> Turning ideas into reality </div>
-                    <div className="sec4-2-3ceo">  I started Clipnex Visuals to bridge the gap between everyday people and premium-quality visuals. To help people and brands create powerful content without the stress or high costs. Every video we make is crafted to inspire, impress, and connect. Let’s create something unforgettable.” We’re mobile, modern, and made for moments that matter.
+                    <div className="sec4-2-3ceo">  I started Clipnex Visuals to bridge the gap between everyday people and premium-quality visuals. To help people and brands create powerful content without the stress or high costs. Every video we make is crafted to inspire, impress, and connect. Let’s create something unforgettable.We’re mobile, modern, and made for moments that matter.
                     </div>
 
-            
+
+                    <div className="sec4-2-3ceo">
+
+
+                        <p>
+                             We’re not just pressing record — we’re capturing emotions, elevating stories, and transforming everyday moments into timeless visuals.
+                        </p>
+                    </div>
+
+
                     <div className="d-flex">
                         <div className="s4-rh-ld  ">
                             <img className="sec4-img1" src={ceo2} alt="s4-img" />
@@ -247,9 +426,9 @@ const Homepage = () => {
                 <div className="sec4-2">
                     {/* <div className="file-i"><i class="fa-solid fa-file-lines file-icon"></i></div> */}
                     <div className="sec4-2-2">Transform your brands and event into colorful memories</div>
-                     <div className="d-flex">
-                       
-                       
+                    <div className="d-flex">
+
+
                     </div>
                 </div>
             </section>
@@ -259,7 +438,7 @@ const Homepage = () => {
                     {/* <div className="file-i" ><i className="fa-solid fa-image file-icon"></i></div> */}
                     <div className="sec4-2-2">Content library with <br /> millions of stock photos & videos</div>
                     <div className="sec5-1-3">The Clipnex Visuals media library gives you <br />easy access to millions of photos,<br />video clips, and audio files, so you <br />always have the elements you need<br />to create the perfect video.</div>
-                    <div className="sec5-1-4"><Link to="/signup" className='nav-links'>View plans <ArrowForwardIcon style={{ height: "12px" }} /></Link></div>
+                    <div className="sec5-1-4"><Link to="/pricing" className='nav-links'>View plans <ArrowForwardIcon style={{ height: "12px" }} /></Link></div>
                     <div className="sec5-1-5">“We promoted our downloadable study <br />on top PPC skills for 2019 on social media <br />using a short video created in Clipnex Visuals in<br />just 30 minutes, and decreased cost per<br />download by 5x!”</div>
                     <div className="d-flex">
                         <div className="s4-rh-ld">
@@ -268,7 +447,7 @@ const Homepage = () => {
                         <div className="s4-lh-ld">
                             <div className="sec5-1-6-2"><b>Folayan Michael</b>, Technical Support</div>
                             <div className="sec5-1-6-2">Manager</div>
-                           
+
                         </div>
                     </div>
                 </div>
@@ -285,7 +464,7 @@ const Homepage = () => {
                     {/* <div  className="file-i"><i className="fa-solid fa-palette file-icon"></i></div> */}
                     <div className="sec4-2-2">Making it easy to <br />stay on brand</div>
                     <div className="sec6-2-3">It has never been easier to stay on brand.<br />With Clipnex Visuals templates, you can customize<br />each video with your unique logo, <br />watermark, fonts, colors, and more.</div>
-                    <div className="sec4-2-4"><Link to="/signup" className='nav-links'>Get started free <ArrowForwardIcon style={{ height: "12px" }} /> </Link></div>
+                    <div className="sec4-2-4"><Link to="/pricing" className='nav-links'>Get started free <ArrowForwardIcon style={{ height: "12px" }} /> </Link></div>
                     <div className="sec4-2-5">“Whenever I got in touch with Clipnex Visuals I felt like my <br />suggestions mattered and I was being listened to. <br />It’s like I’m co-creating in a tiny way. It’s a great<br />feeling.”</div>
                     <div className="width d-flex">
                         <div className="s4-rh-ld">
@@ -332,7 +511,7 @@ const Homepage = () => {
                                             <p className="p-1">{slideImage.description}</p>
                                             <p className="p-2">{slideImage.name}</p>
                                             <p className="p-3">{slideImage.title}</p>
-                                            <p className="lastp"><Link to="/signup" className="nav-linkss">Read story </Link></p>
+                                            <p className="lastp"><Link to="/pricing" className="nav-linkss">Read story </Link></p>
                                         </div>
                                     </span>
 
@@ -361,15 +540,15 @@ const Homepage = () => {
                             <img className="card-imgs" src="https://lumen5.com/learn/wp-content/uploads/2019/05/Video-Marketing-How-to-Get-Started.jpg" alt="card" />
                             <div className="text-b p-l m-b">BLOG</div>
                             <div className="text-l p-l mb1 ">Video Marketing: <br />How to Get Started <br />[Step by Step]</div>
-                            <div className="text-r link">Read Story</div>
+                            
 
                         </div>
                         <div className="card2 borderlite w-30 ">
                             <img className="card-imgs" src="https://lumen5.com/learn/wp-content/uploads/2019/08/Host-an-Instagram-Takeover-in-7-Simple-Steps.jpg" alt="card" />
                             <div className="text-b p-l m-b">BLOG</div>
-                            <div className="text-l p-l mb2">How to Increase <br />Your Facebook <br />Video Views <br />[Complete Guide]</div>
+                            <div className="text-l p-l mb2">How to Increase <br />Your Facebook <br />Video Views <br /></div>
 
-                            <div className="text-r link">Read Story</div>
+                            
 
                         </div>
                         <div className="card3 borderlite w-30">
@@ -377,7 +556,7 @@ const Homepage = () => {
                             <div className="text-b p-l m-b">BLOG</div>
                             <div className="text-l p-l mb3">The Importance of <br />Video in Your <br />Content Strategy</div>
 
-                            <div className="text-r link">Read Story </div>
+                          
 
                         </div>
                     </div>
@@ -388,12 +567,13 @@ const Homepage = () => {
                 <div >
                     <div className="sec10-0"></div>
                     <div className="sec10-1">
-                        Join 800,000+ companies that are <br />using Clipnex Visuals to tell their stories.
+                        Join 1,000+ brands & companies that are <br />using Clipnex Visuals to tell their stories.
                     </div>
                     <div className="sec10-2">
-                        Clipnex Visuals is a video creation software that helps marketers, <br />publishers, and brands create video content in a breeze, <br />without any technical expertise.
-                    </div>
-                    <div><button className="lastbtn"><a href='https://wa.me/+2348108439416' target="_blank" rel="noreferrer">Book us </a></button>
+                      Our visuals speak louder than words. Browse through our collection of stunning short-form edits, behind-the-scenes gems, and captivating before-and-after transformations.
+
+   </div>
+                    <div><button className="lastbtn"><a href='https://wa.me/+2348108439416' target="_blank" rel="noreferrer"> Book a Visual Session </a></button>
 
 
                     </div>

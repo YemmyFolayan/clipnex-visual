@@ -40,7 +40,7 @@ const About = () => {
                 href="https://wa.me/+2348108439416"
                 target="_blank"
               >
-                Book Us
+                Book a Visual Session
               </Button>
             </Box>
             <Box flex={1} mt={[8, 8, 0]}>
@@ -64,8 +64,16 @@ const About = () => {
         <div className="sec4-2">
           {/* <div className="file-i"><i class="fa-solid fa-file-lines file-icon"></i></div> */}
           <div className="sec4-2-1"> Turning ideas into reality </div>
-          <div className="sec4-2-3ceo">  I started Clipnex Visuals to bridge the gap between everyday people and premium-quality visuals. To help people and brands create powerful content without the stress or high costs. Every video we make is crafted to inspire, impress, and connect. Let’s create something unforgettable.” We’re mobile, modern, and made for moments that matter.
+          <div className="sec4-2-3ceo">  I started Clipnex Visuals to bridge the gap between everyday people and premium-quality visuals. To help people and brands create powerful content without the stress or high costs. Every video we make is crafted to inspire, impress, and connect. Let’s create something unforgettable.We’re mobile, modern, and made for moments that matter.
           </div>
+          <div className="sec4-2-3ceo">
+
+
+                        <p>
+                             We’re not just pressing record — we’re capturing emotions, elevating stories, and transforming everyday moments into timeless visuals.
+                        </p>
+                    </div>
+
 
 
           <div className="d-flex">

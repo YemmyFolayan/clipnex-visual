@@ -13,8 +13,10 @@
 }
 
 .sec1-p1 {
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 600;
+    color: #000080;
+    margin-bottom: 10px;
 }
 
 .signupbtn {
@@ -772,14 +774,18 @@ video:hover {
 
 .lastbtn {
     padding: 18px;
+    font-size: 20px;
     border-radius: 25px;
     border: 0;
     margin-bottom: 60px;
+    color: #000080;
+    background-color: white;
 }
 
 .lastbtn:hover {
     cursor: pointer;
-    background-color: lightgray;
+    color: white;
+    background-color: #000080;
 }
 
 @media all and (max-width:768px) {
