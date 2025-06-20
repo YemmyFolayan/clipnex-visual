@@ -15,12 +15,13 @@ import {
 import NavbarBeforeLogin from "./NavbarBeforeLogin";
 import Footer from "./Footer";
 import ceo1 from '../images/ceo1.jpeg'
+import ceo2 from '../images/ceo2.jpeg'
 
 const About = () => {
   return (
     <>
       <NavbarBeforeLogin />
-      
+
       {/* Hero Section */}
       <Box bg="brand.50" py={20}>
         <Container maxW="container.lg">
@@ -32,20 +33,20 @@ const About = () => {
               <Text fontSize="xl" mb={8} color="gray.600">
                 Bringing your events and business stories to life through stunning mobile videos
               </Text>
-              <Button 
-                colorScheme="brand" 
-                size="lg" 
-                as="a" 
-                href="https://wa.me/+2348108439416" 
+              <Button
+                colorScheme="brand"
+                size="lg"
+                as="a"
+                href="https://wa.me/+2348108439416"
                 target="_blank"
               >
                 Book Us
               </Button>
             </Box>
             <Box flex={1} mt={[8, 8, 0]}>
-              <Image 
-                src="https://images.unsplash.com/photo-1579389083078-4e7018379f7e?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" 
-                alt="Video production team" 
+              <Image
+                src="https://images.unsplash.com/photo-1579389083078-4e7018379f7e?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+                alt="Video production team"
                 borderRadius="lg"
                 shadow="lg"
               />
@@ -55,44 +56,32 @@ const About = () => {
       </Box>
 
       {/* CEO Section */}
-      <Box py={20} bg="white">
-        <Container maxW="container.lg">
-          <Flex direction={["column", "column", "row"]} align="center">
-            <Box flex={1} pr={[0, 0, 10]} mb={[8, 8, 0]}>
-              <Image 
-                src={ceo1} 
-                alt="CEO Profile" 
-                borderRadius="full"
-                boxSize="400px"
-                objectFit="cover"
-                mx="auto"
-              />
-            </Box>
-            <Box flex={2}>
-              <Heading as="h2" size="xl" mb={6} color="brand.800">
-                Founder & CEO
-              </Heading>
-             <Heading as="h3" size="md" mb={3} color="brand.700">
-                Folayan Ifeoluwa Omoniyi
-              </Heading>
-              <Text fontSize="lg" mb={6} lineHeight="tall">
-                As the founder of Clipnex Visuals, I position myself as the strategist and visionary behind our operations. 
-                My role encompasses building our company structure, sourcing exceptional talent, attracting clients, 
-                and overseeing service delivery.
-              </Text>
-              <Text fontSize="lg" mb={6} lineHeight="tall">
-                I focus on three core areas: <strong>client acquisition</strong>, <strong>project management</strong>, 
-                and <strong>quality control</strong>. This strategic approach allows me to ensure every project meets 
-                our high standards while maintaining client satisfaction.
-              </Text>
-              <Text fontSize="lg" lineHeight="tall">
-                Rather than being involved in the day-to-day editing, I concentrate on the bigger picture - 
-                growing our business, developing our team, and delivering exceptional value to our clients.
-              </Text>
-            </Box>
-          </Flex>
-        </Container>
-      </Box>
+
+      <section className="section4 ">
+        <div className="imgdiv">
+          <img className="sec4-imgceo" src={ceo1} alt="sec4-img" />
+        </div>
+        <div className="sec4-2">
+          {/* <div className="file-i"><i class="fa-solid fa-file-lines file-icon"></i></div> */}
+          <div className="sec4-2-1"> Turning ideas into reality </div>
+          <div className="sec4-2-3ceo">  I started Clipnex Visuals to bridge the gap between everyday people and premium-quality visuals. To help people and brands create powerful content without the stress or high costs. Every video we make is crafted to inspire, impress, and connect. Let’s create something unforgettable.” We’re mobile, modern, and made for moments that matter.
+          </div>
+
+
+          <div className="d-flex">
+            <div className="s4-rh-ld  ">
+              <img className="sec4-img1" src={ceo2} alt="s4-img" />
+            </div>
+            <div className="s4-lh-ld mb-5">
+              <div>
+                <b>Folayan Ifeoluwa Semilore</b>, <br />
+                Creative Director
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
 
       {/* Company Overview */}
       <Box py={20} bg="brand.50">
@@ -113,7 +102,7 @@ const About = () => {
                   What We Do
                 </Heading>
                 <Text mb={4}>
-                  We create stunning mobile videos that bring your events and business stories to life. 
+                  We create stunning mobile videos that bring your events and business stories to life.
                   Our services include:
                 </Text>
                 <Stack spacing={3}>
@@ -125,24 +114,24 @@ const About = () => {
                 </Stack>
               </Box>
             </GridItem>
-            
+
             <GridItem>
               <Box bg="white" p={8} borderRadius="lg" shadow="md" h="100%">
                 <Heading as="h3" size="lg" mb={4} color="brand.700">
                   Our Vision
                 </Heading>
                 <Text mb={4}>
-                  To become the go-to mobile video editing partner for content creators, 
+                  To become the go-to mobile video editing partner for content creators,
                   SMEs, and event planners across Southwest Nigeria.
                 </Text>
                 <Text>
-                  We aim to grow into a multifaceted agency offering a range of digital 
-                  services, including video editing and production catering to a diverse 
+                  We aim to grow into a multifaceted agency offering a range of digital
+                  services, including video editing and production catering to a diverse
                   clientele across Africa.
                 </Text>
               </Box>
             </GridItem>
-            
+
             <GridItem>
               <Box bg="white" p={8} borderRadius="lg" shadow="md" h="100%">
                 <Heading as="h3" size="lg" mb={4} color="brand.700">
@@ -152,19 +141,19 @@ const About = () => {
                   100% service-based mobile videography and editing services
                 </Text>
                 <Text mb={4}>
-                  We serve events, brands, startups, realtors, influencers, YouTubers and more. 
+                  We serve events, brands, startups, realtors, influencers, YouTubers and more.
                   Clients send raw footage via Google Drive or WeTransfer, and our team edits remotely.
                 </Text>
               </Box>
             </GridItem>
-            
+
             <GridItem>
               <Box bg="white" p={8} borderRadius="lg" shadow="md" h="100%">
                 <Heading as="h3" size="lg" mb={4} color="brand.700">
                   Delivery Model
                 </Heading>
                 <Text mb={4}>
-                  Our fully remote operation allows editors to work from anywhere while clients 
+                  Our fully remote operation allows editors to work from anywhere while clients
                   conveniently upload content from their location.
                 </Text>
                 <Text fontWeight="bold">
@@ -182,7 +171,7 @@ const About = () => {
           <Heading as="h2" size="xl" mb={12} textAlign="center" color="brand.800">
             Our Values
           </Heading>
-          
+
           <Grid templateColumns={["1fr", "1fr", "1fr 1fr 1fr"]} gap={8}>
             {[
               {
@@ -211,11 +200,11 @@ const About = () => {
               }
             ].map((value, index) => (
               <GridItem key={index}>
-                <Box 
-                  p={6} 
-                  borderWidth="1px" 
-                  borderColor="brand.200" 
-                  borderRadius="lg" 
+                <Box
+                  p={6}
+                  borderWidth="1px"
+                  borderColor="brand.200"
+                  borderRadius="lg"
                   bg="brand.50"
                   h="100%"
                 >
@@ -239,11 +228,11 @@ const About = () => {
           <Text fontSize="xl" mb={8} maxW="2xl" mx="auto">
             Let's create something amazing together. Get in touch to discuss your next project.
           </Text>
-          <Button 
-            colorScheme="whiteAlpha" 
-            size="lg" 
-            as="a" 
-            href="https://wa.me/+2348108439416" 
+          <Button
+            colorScheme="whiteAlpha"
+            size="lg"
+            as="a"
+            href="https://wa.me/+2348108439416"
             target="_blank"
           >
             Contact Us

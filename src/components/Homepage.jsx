@@ -210,28 +210,18 @@ const Homepage = () => {
                 <div className="sec4-2">
                     {/* <div className="file-i"><i class="fa-solid fa-file-lines file-icon"></i></div> */}
                     <div className="sec4-2-1"> Turning ideas into reality </div>
-                    <div className="sec4-2-3ceo">  As the founder of Clipnex Visuals, I position myself as the strategist and visionary behind our operations.
-                        My role encompasses building our company structure, sourcing exceptional talent, attracting clients,
-                        and overseeing service delivery.
+                    <div className="sec4-2-3ceo">  I started Clipnex Visuals to bridge the gap between everyday people and premium-quality visuals. To help people and brands create powerful content without the stress or high costs. Every video we make is crafted to inspire, impress, and connect. Let’s create something unforgettable.” We’re mobile, modern, and made for moments that matter.
                     </div>
 
-                    <div className="sec4-2-3ceo">   I focus on three core areas: <strong>client acquisition</strong>, <strong>project management</strong>,
-                        and <strong>quality control</strong>. This strategic approach allows me to ensure every project meets
-                        our high standards while maintaining client satisfaction.
-                    </div>
-
-                    <div className="sec4-2-3ceo"> Rather than being involved in the day-to-day editing, I concentrate on the bigger picture -
-                        growing our business, developing our team, and delivering exceptional value to our clients.
-                    </div>
-
+            
                     <div className="d-flex">
                         <div className="s4-rh-ld  ">
                             <img className="sec4-img1" src={ceo2} alt="s4-img" />
                         </div>
                         <div className="s4-lh-ld mb-5">
                             <div>
-                                <b>Folayan Ifeoluwa Omoniyi</b>, <br />
-                                Founder & CEO
+                                <b>Folayan Ifeoluwa Semilore</b>, <br />
+                                Creative Director
                             </div>
                         </div>
 
