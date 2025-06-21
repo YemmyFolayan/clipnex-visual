@@ -59,7 +59,7 @@ const About = () => {
 
       <section className="section4 ">
         <div className="imgdiv">
-          <img className="sec4-imgceo" src={ceo1} alt="sec4-img" />
+          <img className="sec4-imgceo" src={ceo2} alt="sec4-img" />
         </div>
         <div className="sec4-2">
           {/* <div className="file-i"><i class="fa-solid fa-file-lines file-icon"></i></div> */}
@@ -78,7 +78,7 @@ const About = () => {
 
           <div className="d-flex">
             <div className="s4-rh-ld  ">
-              <img className="sec4-img1" src={ceo2} alt="s4-img" />
+              <img className="sec4-img1" src={ceo1} alt="s4-img" />
             </div>
             <div className="s4-lh-ld mb-5">
               <div>
