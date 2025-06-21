@@ -10,12 +10,11 @@ import {
   Text,
   Heading,
   Container,
-
 } from "@chakra-ui/react";
 import NavbarBeforeLogin from "./NavbarBeforeLogin";
 import Footer from "./Footer";
-import ceo1 from '../images/ceo1.jpeg'
-import ceo2 from '../images/ceo2.jpeg'
+import ceo1 from '../images/ceo1.jpeg';
+import ceo2 from '../images/ceo2.jpeg';
 
 const About = () => {
   return (
@@ -24,9 +23,13 @@ const About = () => {
 
       {/* Hero Section */}
       <Box bg="brand.50" py={20}>
-        <Container maxW="container.lg">
-          <Flex direction={["column", "column", "row"]} align="center">
-            <Box flex={1} pr={[0, 0, 10]}>
+        <Container maxW="80%" centerContent>
+          <Flex 
+            direction={["column", "column", "row"]} 
+            align="center"
+            width="100%"
+          >
+            <Box flex={1} pr={[0, 0, 10]} textAlign={["center", "center", "left"]}>
               <Heading as="h1" size="2xl" mb={6} color="brand.800">
                 Clipnex Visuals
               </Heading>
@@ -43,12 +46,15 @@ const About = () => {
                 Book a Visual Session
               </Button>
             </Box>
-            <Box flex={1} mt={[8, 8, 0]}>
+            <Box flex={1} mt={[8, 8, 0]} width="100%">
               <Image
                 src="https://images.unsplash.com/photo-1579389083078-4e7018379f7e?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
                 alt="Video production team"
                 borderRadius="lg"
                 shadow="lg"
+                width="100%"
+                maxH="400px"
+                objectFit="cover"
               />
             </Box>
           </Flex>
@@ -56,45 +62,61 @@ const About = () => {
       </Box>
 
       {/* CEO Section */}
-
-      <section className="section4 ">
-        <div className="imgdiv">
-          <img className="sec4-imgceo" src={ceo2} alt="sec4-img" />
-        </div>
-        <div className="sec4-2">
-          {/* <div className="file-i"><i class="fa-solid fa-file-lines file-icon"></i></div> */}
-          <div className="sec4-2-1"> Turning ideas into reality </div>
-          <div className="sec4-2-3ceo">  I started Clipnex Visuals to bridge the gap between everyday people and premium-quality visuals. To help people and brands create powerful content without the stress or high costs. Every video we make is crafted to inspire, impress, and connect. Let’s create something unforgettable.We’re mobile, modern, and made for moments that matter.
-          </div>
-          <div className="sec4-2-3ceo">
-
-
-                        <p>
-                             We’re not just pressing record — we’re capturing emotions, elevating stories, and transforming everyday moments into timeless visuals.
-                        </p>
-                    </div>
-
-
-
-          <div className="d-flex">
-            <div className="s4-rh-ld  ">
-              <img className="sec4-img1" src={ceo1} alt="s4-img" />
-            </div>
-            <div className="s4-lh-ld mb-5">
-              <div>
-                <b>Folayan Ifeoluwa Semilore</b>, <br />
-                Creative Director
-              </div>
-            </div>
-
-          </div>
-        </div>
-      </section>
+      <Box py={20} bg="white">
+        <Container maxW="80%" centerContent>
+          <Flex 
+            direction={["column", "column", "row"]} 
+            align="center"
+            width="100%"
+            gap={10}
+          >
+            <Box flex={1}>
+              <Image
+                src={ceo2}
+                alt="CEO"
+                borderRadius="lg"
+                shadow="md"
+                width="100%"
+                maxH="800px"
+                objectFit="cover"
+              />
+            </Box>
+            <Box flex={1}>
+              <Heading as="h2" size="xl" mb={6} color="brand.800">
+                Turning ideas into reality
+              </Heading>
+              <Text fontSize="lg" mb={4}>
+                I started Clipnex Visuals to bridge the gap between everyday people and premium-quality visuals. 
+                To help people and brands create powerful content without the stress or high costs. 
+                Every video we make is crafted to inspire, impress, and connect. 
+                Let's create something unforgettable. We're mobile, modern, and made for moments that matter.
+              </Text>
+              <Text fontSize="lg" mb={8}>
+                We're not just pressing record — we're capturing emotions, elevating stories, 
+                and transforming everyday moments into timeless visuals.
+              </Text>
+              <Flex align="center" gap={4}>
+                <Image
+                  src={ceo1}
+                  alt="CEO Portrait"
+                  borderRadius="full"
+                  boxSize="80px"
+                  objectFit="cover"
+                />
+                <Box>
+                  <Text fontWeight="bold">Folayan Ifeoluwa Semilore</Text>
+                  <Text>Creative Director</Text>
+                </Box>
+              </Flex>
+            </Box>
+          </Flex>
+        </Container>
+      </Box>
 
       {/* Company Overview */}
       <Box py={20} bg="brand.50">
-        <Container maxW="container.lg">
-          <Box textAlign="center" mb={16}>
+        <Container maxW="80%" centerContent>
+          <Box textAlign="center" mb={16} width="100%">
             <Heading as="h2" size="xl" mb={4} color="brand.800">
               Our Company
             </Heading>
@@ -103,7 +125,11 @@ const About = () => {
             </Text>
           </Box>
 
-          <Grid templateColumns={["1fr", "1fr", "1fr 1fr"]} gap={10}>
+          <Grid 
+            templateColumns={["1fr", "1fr", "1fr 1fr"]} 
+            gap={10} 
+            width="100%"
+          >
             <GridItem>
               <Box bg="white" p={8} borderRadius="lg" shadow="md" h="100%">
                 <Heading as="h3" size="lg" mb={4} color="brand.700">
@@ -175,12 +201,16 @@ const About = () => {
 
       {/* Values Section */}
       <Box py={20} bg="white">
-        <Container maxW="container.lg">
+        <Container maxW="80%" centerContent>
           <Heading as="h2" size="xl" mb={12} textAlign="center" color="brand.800">
             Our Values
           </Heading>
 
-          <Grid templateColumns={["1fr", "1fr", "1fr 1fr 1fr"]} gap={8}>
+          <Grid 
+            templateColumns={["1fr", "1fr", "1fr 1fr 1fr"]} 
+            gap={8} 
+            width="100%"
+          >
             {[
               {
                 title: "Creativity",
@@ -229,7 +259,7 @@ const About = () => {
 
       {/* CTA Section */}
       <Box py={16} bg="brand.800" color="white">
-        <Container maxW="container.lg" textAlign="center">
+        <Container maxW="80%" centerContent textAlign="center">
           <Heading as="h2" size="xl" mb={6}>
             Ready to bring your story to life?
           </Heading>
